@@ -10,5 +10,3 @@ def buble_sort(my_list):
 print("old list:", old_list)
 newList = buble_sort(old_list).copy()
 print('New List:', newList)
-
-            
