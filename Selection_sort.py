@@ -1,8 +1,3 @@
-#----------------------------#
- #Selection sort
- #Author:Albert Bagdasarov
- #21:10:19 21:36
-#----------------------------#
 def selectionSort(arr):
     newArr = []
     for i in range(len(arr)):
