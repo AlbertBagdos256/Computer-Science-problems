@@ -8,9 +8,6 @@ from typing import Generator
     return fib2(n - 2) + fib2(n - 1)
 print(fib2(5))
 
-
-
-
 #2
 
 memo: Dict[int,int] = {0:0,1:1}
@@ -62,8 +59,3 @@ def fib6(n: int) -> Generator[int, None, None]:
 if __name__ == "__main__":
     for i in fib6(50):
         print(i)
-
-
-
-        
-
